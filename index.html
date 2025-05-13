@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Participante</title>
+    <link rel="shortcut icon" href="/img/Herogra-Group-Logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/estilo.css" />
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="container">
+            <div class="bg-light rounded shadow p-4 my-4 text-center">
+                <h2 class="text-primary mb-3">¡Gracias Por Acompañarnos en Este Momento tan Especial!</h2>
+                <p class="mb-0 fs-5 text-dark">
+                    En celebración de nuestro <strong>10mo Aniversario</strong>, nos encantaría contar con su presencia
+                    para compartir este logro.
+                    <span class="d-block d-md-none"><br></span>
+                    Por favor, complete la siguiente información para confirmar su asistencia al evento:
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content contenedorpral">
+        <div class="container">
+            <div class="row gx-lg-5 align-items-stretch">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="form-container h-100 d-flex flex-column">
+                        <h3 class="text-center mb-4">Registro de Participantes</h3>
+                        <form id="formregistro" class="flex-grow-1">
+                            <div class="mb-3">
+                                <label for="cedula" class="form-label">Cédula</label>
+                                <input type="text" class="form-control" id="cedula" placeholder="Cedula sin Guiones"
+                                    autocomplete="off" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="cliente" class="form-label">Nombre completo</label>
+                                <input type="text" class="form-control" id="cliente" placeholder="Ingrese su Nombre"
+                                    autocomplete="off" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="celular" class="form-label">Celular</label>
+                                <input type="tel" class="form-control" id="celular"
+                                    placeholder="Ingrese su Número Celular" autocomplete="off" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" placeholder="Ingrese su Correo"
+                                    autocomplete="off" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="acompanante" class="form-label">Nombre Acompañante</label>
+                                <input type="text" class="form-control" id="acompanante"
+                                    placeholder="Ingrese el Nombre de su Acompañante" autocomplete="off" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="cedacompanante" class="form-label">Cedula Acompañante</label>
+                                <input type="text" class="form-control" id="cedacompanante"
+                                    placeholder="Ingrese la Cedula de su Acompañante" autocomplete="off">
+                            </div>
+                            <div class="mb-3">
+                                <label for="restalimentaria" class="form-label">¿Restricción Alimentaria o Requerimiento
+                                    Especial?</label>
+                                <input type="text" class="form-control" id="restalimentaria"
+                                    placeholder="Detallar en Caso de Presentar Alguna" autocomplete="off" />
+                            </div>
+
+                            <div class="text-center mt-auto pt-4">
+                                <button type="submit" class="btn btn-primary btn-submit">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Imagen (derecha) -->
+                <div class="col-lg-6">
+                    <div class="bg-image-container rounded h-100">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/bootbox.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
